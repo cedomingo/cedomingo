@@ -52,7 +52,7 @@ A student-focused mobile application for managing everyday dorm life in one plac
 
 `React` `JavaScript` `CSS`
 
-🔗 https://github.com/cedomingo/my-dorm
+🔗 [https://github.com/cedomingo/my-dorm](https://cedomingo.github.io/my-dorm/)
 
 ---
 
@@ -71,7 +71,7 @@ An interactive course planner that helps UP students organize their academic jou
 
 `React` `JavaScript` `JSON`
 
-🔗 https://github.com/cedomingo/UP-course-planner
+🔗 [https://github.com/cedomingo/UP-course-planner](https://cedomingo.github.io/UP-course-planner/)
 
 ---
 
@@ -90,7 +90,7 @@ A browser-based image slicing tool for splitting images into perfectly sized sec
 
 `React` `Vite` `HTML5 Canvas`
 
-🔗 https://github.com/cedomingo/gridcrop
+🔗 [https://github.com/cedomingo/gridcrop](https://cedomingo.github.io/gridcrop/)
 
 ---
 
