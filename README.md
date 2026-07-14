@@ -13,9 +13,7 @@
   <a href="https://linkedin.com/in/chrisanto-domingo-9898b3375">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-  <a href="https://YOUR-PORTFOLIO.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white">
-  </a>
+
 </p>
 
 ---
