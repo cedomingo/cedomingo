@@ -124,22 +124,6 @@ A browser-based image slicing tool for splitting images into perfectly sized sec
 
 ---
 
-# GitHub Stats
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=cedomingo&show_icons=true&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cedomingo&layout=compact&hide_border=true"/>
-
-</p>
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=cedomingo&hide_border=true"/>
-</p>
-
----
-
 # Currently Building
 
 - 📱 A community-based application for making commuting life easier
