@@ -1,96 +1,84 @@
-<h1 align="center">Hi, I'm Ceej Domingo 👋</h1>
+<p align="center">
+  <img src="first.svg" width="460" alt="Chrisanto Domingo Jr." />
+</p>
+
+<h1 align="center">Hi, I'm Chrisanto Domingo Jr. 👋</h1>
 
 <p align="center">
   <b>Computer Science Student @ University of the Philippines Diliman</b>
   <br>
-  Building practical software with React, JavaScript, and AI-assisted development.
+  Building full-stack products end to end — from scraper to database to deploy.
 </p>
 
 <p align="center">
   <a href="mailto:chrisantodomjr@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
-  <a href="https://linkedin.com/in/chrisanto-domingo-9898b3375">
+  <a href="https://www.linkedin.com/in/chrisanto-domingo-9898b3375">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
-
+  <a href="https://github.com/cedomingo">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+  </a>
 </p>
 
 ---
 
 ## About Me
 
-I'm a Computer Science student at the **University of the Philippines Diliman** with an interest in **Software Engineering, Web Development, and Machine Learning**.
+I'm a Computer Science student at the **University of the Philippines Diliman** (BS CS, Aug. 2025 – Present), focused on **full-stack web development, real-time systems, and AI-assisted engineering**.
 
-I enjoy building applications that solve real-world problems while continuously improving my programming and software engineering skills. Most of my learning comes from creating complete projects rather than following tutorials.
+I like shipping things people actually use — my projects run in production, are used by 100+ students, and live at custom domains, not just sitting in a repo.
 
 ### Current Focus
 
-- Exploring AI-assisted software development
-- Learning JavaScript and SQL
-- Improving software engineering fundamentals
+- Real-time and event-driven systems (Supabase Realtime, WebSockets)
+- REST API design and backend architecture (Express, FastAPI)
+- AI-assisted software development workflows
 - Preparing for software engineering internships
-
 
 ---
 
 # Featured Projects
 
-## 🏠 My Dorm
+## 📡 [CRS Monitor](https://github.com/cedomingo/CRS-Monitor) · [Live Demo](https://crs-monitor.onrender.com/)
 
-A student-focused mobile application for managing everyday dorm life in one place.
+A live monitor for UP Diliman's CRS enlistment system, polling all 26 lettered schedule pages during registration to detect newly-opened class sections in near real time.
 
-### Features
-- Expense tracking
-- Student organization tools
-- Payment monitoring
-- Reading tracker
-- Medicine reminders
+- Resilient Cheerio-based HTML parser built to survive CRS's inconsistent markup (split class codes, multi-word subjects, decimal course numbers)
+- REST API (Express) backed by SQLite, with a polling React frontend for live slot availability — no manual refreshing
+- Deployed to Render with a persistent disk; used by **100+ university students** during registration
 
+`Node.js` `Express` `React (Vite)` `SQLite` `Cheerio`
 
-**Tech Stack**
+## 🎉 [Party Together](https://github.com/cedomingo/party-together) · [Live Demo](https://www.partytogether.online/)
 
-`React` `JavaScript` `CSS`
+A full multiplayer party-game platform on a custom domain — a host creates a room, shares a link, and friends join to play browser games together live.
 
-🔗 [https://github.com/cedomingo/my-dorm](https://cedomingo.github.io/my-dorm/)
+- Real-time room/lobby infrastructure via Supabase Realtime + Anonymous Auth: short room codes, join by link/code, live presence, host controls, reconnect handling
+- Full game logic (turns, guessing, scoring) for the platform's first game, "Who Am I?", on a game-agnostic core architecture
+- Deployed on Vercel behind Cloudflare
 
----
+`Next.js` `Supabase` `PostgreSQL` `Cloudflare` `Vercel`
 
-## 🎓 UP Course Planner
+## 🗓️ [Sabay Sablay](https://github.com/cedomingo/sabay-sablay) · [Live Demo](https://sabay-sablay.vercel.app/)
 
-An interactive course planner that helps UP students organize their academic journey while automatically considering prerequisites and curriculum flow.
+A schedule-visualizer web app: upload a screenshot of your class schedule, OCR it into structured data, and get a combined free/busy view for a group.
 
-### Features
+- Separate FastAPI OCR microservice integrated with the Next.js app via a shared-secret header, enriched with live data from CRS Monitor
+- Group availability heatmap with a "best times to meet" callout, shared task boards, presence indicators, in-app notifications
+- Google OAuth with row-level security
 
-- Curriculum planning
-- Prerequisite visualization
-- Semester organization
-- Progress tracking
+`Next.js` `TypeScript` `Tailwind` `Supabase` `FastAPI`
 
-**Tech Stack**
+## 🏠 [My Dorm](https://github.com/cedomingo/my-dorm) · [Live Demo](https://cedomingo.github.io/my-dorm/)
 
-`React` `JavaScript` `JSON`
+An installable Android app for daily dorm life: budgeting, food/expense logging, task and exam deadlines, sleep and reading logs, and medication schedules — all persisted on-device.
 
-🔗 [https://github.com/cedomingo/UP-course-planner](https://cedomingo.github.io/UP-course-planner/)
+- Native Android home-screen widget written in Java (`AppWidgetProvider` + `RemoteViewsService`), bridged to the React app via a custom Capacitor plugin, keeping "closest deadlines" in sync even when the app is closed
+- On-device local push notifications (Capacitor Local Notifications) for payments, debts, deadlines, exams, and medicine
 
----
-
-## 🖼️ GridCrop
-
-A browser-based image slicing tool for splitting images into perfectly sized sections for billboards, LED walls, posters, and multi-screen displays.
-
-### Features
-
-- Equal grid splitting
-- Custom section layouts
-- Precise image exports
-- Client-side image processing
-
-**Tech Stack**
-
-`React` `Vite` `HTML5 Canvas`
-
-🔗 [https://github.com/cedomingo/gridcrop](https://cedomingo.github.io/gridcrop/)
+`React` `Capacitor` `Java (Android)` `Tailwind`
 
 ---
 
@@ -99,39 +87,52 @@ A browser-based image slicing tool for splitting images into perfectly sized sec
 ## Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=python,javascript,html,css" />
+<img src="https://skillicons.dev/icons?i=js,ts,py,html,css" />
 </p>
 
 ## Frameworks & Libraries
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,nodejs,vite" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,tailwind" />
 </p>
 
-## Tools
+## Databases & Platforms
 
 <p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=postgres,supabase,sqlite,vercel,cloudflare" />
 </p>
 
-## Currently Learning
+## Tools & Concepts
 
 <p>
-<img src="https://skillicons.dev/icons?i=mysql" />
+<img src="https://skillicons.dev/icons?i=git,github,androidstudio" />
 </p>
+
+REST API Design · OAuth · Web Scraping · Real-time Systems (WebSockets/Realtime)
 
 ---
 
-# Currently Building
+# Education
 
-- 📱 A community-based application for making commuting life easier
+**University of the Philippines Diliman** — Quezon City
+BS Computer Science · Aug. 2025 – Present
+
+---
+
+# Certifications & Seminars
+
+- **IBM SkillsBuild** — Artificial Intelligence Fundamentals, Build Your First Chatbot, Generative AI in Action
+- **Google Cloud** — Introduction to Generative AI, Introduction to Large Language Models, Create Generative AI Applications
+- **Microsoft & LinkedIn Learning** — Career Essentials in Generative AI
+- **GDG Cloud Manila Seminar** (June 2026) — Build with AI: The Future of AI & Research
+- **Stack Up Seminar** (June 2026) — Build the AI-Powered World Before It Builds Without You
+
 ---
 
 # Goals for 2026
 
-- Build impactful software projects
-- Learn SQL and backend development
-- Strengthen software engineering fundamentals
+- Ship another production project used by real students
+- Deepen backend & real-time systems fundamentals
 - Contribute to open-source projects
 - Secure a software engineering internship
 
@@ -139,17 +140,9 @@ A browser-based image slicing tool for splitting images into perfectly sized sec
 
 # Connect with Me
 
-📧 **Email**
-
-**chrisantodomjr@gmail.com**
-
-💼 **LinkedIn**
-
-https://linkedin.com/in/chrisanto-domingo-9898b3375
-
-🌐 **Portfolio**
-
-Coming Soon
+📧 **[chrisantodomjr@gmail.com](mailto:chrisantodomjr@gmail.com)**
+💼 **[linkedin.com/in/chrisanto-domingo](https://www.linkedin.com/in/chrisanto-domingo-9898b3375)**
+💻 **[github.com/cedomingo](https://github.com/cedomingo)**
 
 ---
 
