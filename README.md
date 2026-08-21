@@ -1,14 +1,13 @@
-<p align="center">
-  <img src="first.svg" width="460" alt="Chrisanto Domingo Jr." />
-</p>
-
-<p align="center">
-  <img src="stats.svg" alt="contributions in the last year" width="280" />
-  <img src="year.svg" alt="the year, one cell per day" width="280" />
-</p>
-<p align="center">
-  <img src="langs.svg" alt="top languages" width="320" />
-  <img src="streak.svg" alt="contribution streaks" width="260" />
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="langs.svg" alt="top languages" width="320" />
+    </td>
+    <td align="center">
+      <img src="streak.svg" alt="contribution streaks" width="260" />
+    </td>
+  </tr>
+</table>
 </p>
 <p align="center">
 </p>
