@@ -3,14 +3,15 @@
 </p>
 
 <p align="center">
-  <img src="stats.svg" alt="contributions in the last year" width="220" />
-  <img src="year.svg" alt="the year, one cell per day" width="220" />
+  <img src="stats.svg" alt="contributions in the last year" width="280" />
+  <img src="year.svg" alt="the year, one cell per day" width="280" />
 </p>
 <p align="center">
-  <img src="langs.svg" alt="top languages" width="260" />
-  <img src="streak.svg" alt="contribution streaks" width="200" />
+  <img src="langs.svg" alt="top languages" width="320" />
+  <img src="streak.svg" alt="contribution streaks" width="260" />
 </p>
 <p align="center">
+  <sub>self-drawn nightly by a GitHub Action — no third-party widgets, nothing to rate-limit or go dark. See <samp>scripts/generate_stats.py</samp>.</sub>
 </p>
 
 <h1 align="center">Hi, I'm Chrisanto Domingo Jr. 👋</h1>

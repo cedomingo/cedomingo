@@ -209,7 +209,7 @@ def aggregate_languages(repo_nodes):
         for edge in repo["languages"]["edges"]:
             name = edge["node"]["name"]
             totals[name] = totals.get(name, 0) + edge["size"]
-    ranked = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)[:6]
+    ranked = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)[:3]
     grand = sum(v for _, v in ranked) or 1
     return [(name, size, size / grand) for name, size in ranked]
 
