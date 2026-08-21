@@ -8,7 +8,7 @@
 </p>
 <p align="center">
   <img src="langs.svg" alt="top languages" width="320" />
-  <img src="streak.svg" alt="contribution streaks" width="320" />
+  <img src="streak.svg" alt="contribution streaks" width="500" />
 </p>
 <p align="center">
 </p>
