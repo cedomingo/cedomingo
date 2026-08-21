@@ -82,6 +82,26 @@ An installable Android app for daily dorm life: budgeting, food/expense logging,
 
 ---
 
+# Stats
+
+<sub>self-drawn nightly by a GitHub Action — no third-party widgets, nothing to rate-limit or go dark. See <samp>scripts/generate_stats.py</samp>.</sub>
+
+<p align="center">
+  <img src="stats.svg" alt="contribution stats" width="460" /><br/>
+  <img src="streak.svg" alt="contribution streaks" width="460" />
+</p>
+
+<p align="center">
+  <img src="langs.svg" alt="top languages" width="460" />
+</p>
+
+<p align="center">
+  <img src="year.svg" alt="the year, one cell per day" /><br/>
+  <sub>the year at one cell per day, same ramp as the portrait above</sub>
+</p>
+
+---
+
 # Tech Stack
 
 ## Languages
@@ -149,3 +169,12 @@ BS Computer Science · Aug. 2025 – Present
 <p align="center">
   <i>"The best way to learn software engineering is by building software."</i>
 </p>
+
+<!--
+  How this page draws itself — see PIPELINE.md for the full writeup:
+  - first.svg is the typing ASCII portrait (make_ascii_svg.py)
+  - stats.svg / streak.svg / langs.svg / year.svg are regenerated nightly
+    by .github/workflows/refresh-stats.yml running scripts/generate_stats.py
+  - everything is stdlib Python + inline SVG/SMIL, zero third-party requests
+-->
+
