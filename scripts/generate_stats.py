@@ -6,7 +6,7 @@ break in CI.
 
 Two determinism traps this avoids (see README Part 2):
   1. The contribution window is pinned to whole UTC days, not "the
-     last 365 days from right now" — otherwise two runs minutes apart
+     last 365 days from right now;" otherwise two runs minutes apart
      bucket days into different weeks and the sparkline shifts.
   2. Repositories are filtered to privacy: PUBLIC, so the workflow's
      GITHUB_TOKEN and a personal token report identical numbers.
@@ -139,7 +139,7 @@ def weekly_totals(days):
 
 def _embedded_font_face(role):
     """Inline @font-face from fonts/<role>.b64 if it exists (see
-    scripts/subset_font.sh). An external font URL can't work here — these
+    scripts/subset_font.sh). An external font URL can't work here; these
     SVGs load through an <img> tag and browsers refuse subresource fetches
     for image documents, so the woff2 must be a base64 data URI baked into
     every file that uses it."""
