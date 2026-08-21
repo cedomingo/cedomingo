@@ -2,16 +2,28 @@
   <img src="first.svg" width="460" alt="Chrisanto Domingo Jr." />
 </p>
 
-<p align="center">
-  <img src="stats.svg" alt="contributions in the last year" width="290" />
-  <img src="year.svg" alt="the year, one cell per day" width="290" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="langs.svg" alt="top languages" width="320" />
-  <img src="streak.svg" alt="contribution streaks" width="260" />
-</p>
+<table style="border: none; border-collapse: collapse;">
+  <tr>
+    <td style="border: none; width: 320px; padding: 0; text-align: center;">
+      <img src="stats.svg" alt="contributions in the last year" width="280" />
+    </td>
+    <td style="border: none; width: 260px; padding: 0; text-align: center;">
+      <img src="year.svg" alt="the year, one cell per day" width="280" />
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; width: 320px; padding: 0; text-align: center;">
+      <img src="langs.svg" alt="top languages" width="320" />
+    </td>
+    <td style="border: none; width: 260px; padding: 0; text-align: center;">
+      <img src="streak.svg" alt="contribution streaks" width="260" />
+    </td>
+  </tr>
+</table>
 
+</div>
 
 <h1 align="center">Hi, I'm Chrisanto Domingo Jr. 👋</h1>
 
