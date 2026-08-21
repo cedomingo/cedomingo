@@ -1,3 +1,18 @@
+<p align="center">
+  <img src="first.svg" width="460" alt="Chrisanto Domingo Jr." />
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="stats.svg" alt="contributions in the last year" width="280" />
+    </td>
+    <td align="center">
+      <img src="year.svg" alt="the year, one cell per day" width="280" />
+    </td>
+  </tr>
+</table>
+
 <table align="center">
   <tr>
     <td align="center">
@@ -8,10 +23,6 @@
     </td>
   </tr>
 </table>
-</p>
-<p align="center">
-</p>
-
 <h1 align="center">Hi, I'm Chrisanto Domingo Jr. 👋</h1>
 
 <p align="center">
