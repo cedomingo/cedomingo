@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <img src="stats.svg" alt="contributions in the last year" />
-  <img src="year.svg" alt="the year, one cell per day" />
+  <img src="stats.svg" alt="contributions in the last year" width="220" />
+  <img src="year.svg" alt="the year, one cell per day" width="220" />
 </p>
 <p align="center">
-  <img src="langs.svg" alt="top languages" />
-  <img src="streak.svg" alt="contribution streaks" />
+  <img src="langs.svg" alt="top languages" width="260" />
+  <img src="streak.svg" alt="contribution streaks" width="200" />
 </p>
 <p align="center">
   <sub>self-drawn nightly by a GitHub Action — no third-party widgets, nothing to rate-limit or go dark. See <samp>scripts/generate_stats.py</samp>.</sub>
@@ -169,4 +169,3 @@ BS Computer Science · Aug. 2025 – Present
     by .github/workflows/refresh-stats.yml running scripts/generate_stats.py
   - everything is stdlib Python + inline SVG/SMIL, zero third-party requests
 -->
-
