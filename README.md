@@ -7,7 +7,7 @@
 <table style="border: none; border-collapse: collapse;">
   <tr>
     <td style="border: none; width: 320px; padding: 0; text-align: center;">
-      <img src="stats.svg" alt="contributions in the last year" width="350" />
+      <img src="stats.svg" alt="contributions in the last year" width="280" />
     </td>
     <td style="border: none; width: 260px; padding: 0; text-align: center;">
       <img src="year.svg" alt="the year, one cell per day" width="350" />
@@ -18,7 +18,7 @@
       <img src="langs.svg" alt="top languages" width="320" />
     </td>
     <td style="border: none; width: 260px; padding: 0; text-align: center;">
-      <img src="streak.svg" alt="contribution streaks" width="400" />
+      <img src="streak.svg" alt="contribution streaks" width="320" />
     </td>
   </tr>
 </table>
