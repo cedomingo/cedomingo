@@ -11,7 +11,6 @@
   <img src="streak.svg" alt="contribution streaks" width="200" />
 </p>
 <p align="center">
-  <sub>self-drawn nightly by a GitHub Action — no third-party widgets, nothing to rate-limit or go dark. See <samp>scripts/generate_stats.py</samp>.</sub>
 </p>
 
 <h1 align="center">Hi, I'm Chrisanto Domingo Jr. 👋</h1>
