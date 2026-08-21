@@ -113,19 +113,25 @@ def compute_streaks(days):
         else:
             cur_len, cur_start = 0, None
     # current streak = trailing run ending today (or yesterday, to allow
-    # for a day still in progress)
+    # for a day still in progress) — if today has no contributions yet,
+    # drop it before walking the trailing run so an active streak through
+    # yesterday isn't zeroed out just because today hasn't happened yet.
+    trailing = days[:-1] if days and days[-1][1] == 0 else days
+
     current_len, current_range = 0, ("", "")
     run = 0
     start = None
-    for date, count in days:
+    end = None
+    for date, count in trailing:
         if count > 0:
             run += 1
             if start is None:
                 start = date
+            end = date
         else:
-            run, start = 0, None
+            run, start, end = 0, None, None
     if run:
-        current_len, current_range = run, (start, days[-1][0])
+        current_len, current_range = run, (start, end)
     return (best_len, best_range), (current_len, current_range)
 
 
