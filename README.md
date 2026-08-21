@@ -8,7 +8,7 @@
 </p>
 <p align="center">
   <img src="langs.svg" alt="top languages" width="320" />
-  <img src="streak.svg" alt="contribution streaks" width="260" />
+  <img src="streak.svg" alt="contribution streaks" width="320" />
 </p>
 <p align="center">
 </p>
@@ -39,7 +39,7 @@
 
 I'm a Computer Science student at the **University of the Philippines Diliman** (BS CS, Aug. 2025 – Present), focused on **full-stack web development, real-time systems, and AI-assisted engineering**.
 
-I like shipping things people actually use; my projects run in production, are used by 100+ students, and live at custom domains, not just sitting in a repo.
+I like shipping things people actually use — my projects run in production, are used by 100+ students, and live at custom domains, not just sitting in a repo.
 
 ### Current Focus
 
@@ -57,14 +57,14 @@ I like shipping things people actually use; my projects run in production, are u
 A live monitor for UP Diliman's CRS enlistment system, polling all 26 lettered schedule pages during registration to detect newly-opened class sections in near real time.
 
 - Resilient Cheerio-based HTML parser built to survive CRS's inconsistent markup (split class codes, multi-word subjects, decimal course numbers)
-- REST API (Express) backed by SQLite, with a polling React frontend for live slot availability - no manual refreshing
+- REST API (Express) backed by SQLite, with a polling React frontend for live slot availability — no manual refreshing
 - Deployed to Render with a persistent disk; used by **100+ university students** during registration
 
 `Node.js` `Express` `React (Vite)` `SQLite` `Cheerio`
 
 ## 🎉 [Party Together](https://github.com/cedomingo/party-together) · [Live Demo](https://www.partytogether.online/)
 
-A full multiplayer party-game platform on a custom domain; a host creates a room, shares a link, and friends join to play browser games together live.
+A full multiplayer party-game platform on a custom domain — a host creates a room, shares a link, and friends join to play browser games together live.
 
 - Real-time room/lobby infrastructure via Supabase Realtime + Anonymous Auth: short room codes, join by link/code, live presence, host controls, reconnect handling
 - Full game logic (turns, guessing, scoring) for the platform's first game, "Who Am I?", on a game-agnostic core architecture
@@ -84,7 +84,7 @@ A schedule-visualizer web app: upload a screenshot of your class schedule, OCR i
 
 ## 🏠 [My Dorm](https://github.com/cedomingo/my-dorm) · [Live Demo](https://cedomingo.github.io/my-dorm/)
 
-An installable Android app for daily dorm life: budgeting, food/expense logging, task and exam deadlines, sleep and reading logs, and medication schedules - all persisted on-device.
+An installable Android app for daily dorm life: budgeting, food/expense logging, task and exam deadlines, sleep and reading logs, and medication schedules — all persisted on-device.
 
 - Native Android home-screen widget written in Java (`AppWidgetProvider` + `RemoteViewsService`), bridged to the React app via a custom Capacitor plugin, keeping "closest deadlines" in sync even when the app is closed
 - On-device local push notifications (Capacitor Local Notifications) for payments, debts, deadlines, exams, and medicine
@@ -162,7 +162,7 @@ BS Computer Science · Aug. 2025 – Present
 </p>
 
 <!--
-  How this page draws itself; see PIPELINE.md for the full writeup:
+  How this page draws itself — see PIPELINE.md for the full writeup:
   - first.svg is the typing ASCII portrait (make_ascii_svg.py)
   - stats.svg / streak.svg / langs.svg / year.svg are regenerated nightly
     by .github/workflows/refresh-stats.yml running scripts/generate_stats.py
