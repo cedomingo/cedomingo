@@ -7,10 +7,10 @@
 <table style="border: none; border-collapse: collapse;">
   <tr>
     <td style="border: none; width: 320px; padding: 0; text-align: center;">
-      <img src="stats.svg" alt="contributions in the last year" width="280" />
+      <img src="stats.svg" alt="contributions in the last year" width="350" />
     </td>
     <td style="border: none; width: 260px; padding: 0; text-align: center;">
-      <img src="year.svg" alt="the year, one cell per day" width="280" />
+      <img src="year.svg" alt="the year, one cell per day" width="350" />
     </td>
   </tr>
   <tr>
