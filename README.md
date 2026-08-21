@@ -18,7 +18,7 @@
       <img src="langs.svg" alt="top languages" width="320" />
     </td>
     <td style="border: none; width: 260px; padding: 0; text-align: center;">
-      <img src="streak.svg" alt="contribution streaks" width="260" />
+      <img src="streak.svg" alt="contribution streaks" width="400" />
     </td>
   </tr>
 </table>
