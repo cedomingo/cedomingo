@@ -2,6 +2,18 @@
   <img src="first.svg" width="460" alt="Chrisanto Domingo Jr." />
 </p>
 
+<p align="center">
+  <img src="stats.svg" alt="contributions in the last year" />
+  <img src="year.svg" alt="the year, one cell per day" />
+</p>
+<p align="center">
+  <img src="langs.svg" alt="top languages" />
+  <img src="streak.svg" alt="contribution streaks" />
+</p>
+<p align="center">
+  <sub>self-drawn nightly by a GitHub Action — no third-party widgets, nothing to rate-limit or go dark. See <samp>scripts/generate_stats.py</samp>.</sub>
+</p>
+
 <h1 align="center">Hi, I'm Chrisanto Domingo Jr. 👋</h1>
 
 <p align="center">
@@ -79,26 +91,6 @@ An installable Android app for daily dorm life: budgeting, food/expense logging,
 - On-device local push notifications (Capacitor Local Notifications) for payments, debts, deadlines, exams, and medicine
 
 `React` `Capacitor` `Java (Android)` `Tailwind`
-
----
-
-# Stats
-
-<sub>self-drawn nightly by a GitHub Action — no third-party widgets, nothing to rate-limit or go dark. See <samp>scripts/generate_stats.py</samp>.</sub>
-
-<p align="center">
-  <img src="stats.svg" alt="contribution stats" width="460" /><br/>
-  <img src="streak.svg" alt="contribution streaks" width="460" />
-</p>
-
-<p align="center">
-  <img src="langs.svg" alt="top languages" width="460" />
-</p>
-
-<p align="center">
-  <img src="year.svg" alt="the year, one cell per day" /><br/>
-  <sub>the year at one cell per day, same ramp as the portrait above</sub>
-</p>
 
 ---
 

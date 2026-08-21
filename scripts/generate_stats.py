@@ -169,43 +169,34 @@ def esc(s):
 
 
 def build_stats_svg(total, weekly, path):
-    w, h, pad = 460, 140, 14
+    """Compact card: just the headline number, sized to sit next to
+    year.svg in a two-up row. `weekly` is accepted but unused here — kept
+    in the signature in case a sparkline variant is wanted again later."""
+    w, h, pad = 200, 110, 16
     p = [svg_open(w, h)]
     p.append(
-        f'<text x="{pad}" y="34" class="b" font-size="26">{total:,}</text>'
-        f'<text x="{pad}" y="52" class="a" font-size="11">contributions in the last year</text>'
+        f'<text x="{pad}" y="{h/2 - 4:.0f}" class="b" font-size="34">{total:,}</text>'
+        f'<text x="{pad}" y="{h/2 + 20:.0f}" class="a" font-size="11">contributions</text>'
+        f'<text x="{pad}" y="{h/2 + 34:.0f}" class="a" font-size="11">in the last year</text>'
     )
-    # weekly sparkline as columns — a zero week is empty space, not a claimed value
-    chart_x, chart_y, chart_w, chart_h = pad, 70, w - pad * 2, 50
-    peak = max(weekly) or 1
-    bw = chart_w / max(len(weekly), 1)
-    for i, v in enumerate(weekly):
-        bh = 0 if v == 0 else max(2, (v / peak) * chart_h)
-        x = chart_x + i * bw
-        y = chart_y + chart_h - bh
-        p.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bw * 0.7:.1f}" height="{bh:.1f}" class="a"/>')
-    p.append(f'<line x1="{chart_x}" y1="{chart_y + chart_h}" x2="{chart_x + chart_w}" y2="{chart_y + chart_h}" class="a" stroke="currentColor" stroke-opacity="0.3"/>')
     p.append("</svg>")
     with open(path, "w") as f:
         f.write("".join(p))
 
 
 def build_streak_svg(best, current, path):
-    w, h, pad = 460, 120, 14
+    """Compact card sized to sit next to langs.svg in a two-up row."""
+    w, h, pad = 200, 110, 16
     p = [svg_open(w, h)]
     (best_len, (bs, be)) = best
     (cur_len, (cs, ce)) = current
     p.append(
-        f'<text x="{pad}" y="34" class="b" font-size="22">{cur_len} day{"s" if cur_len != 1 else ""}</text>'
-        f'<text x="{pad}" y="50" class="a" font-size="11">current streak'
-        + (f" · {cs} → {ce}" if cur_len else "")
-        + "</text>"
+        f'<text x="{pad}" y="30" class="b" font-size="20">{cur_len} day{"s" if cur_len != 1 else ""}</text>'
+        f'<text x="{pad}" y="46" class="a" font-size="10">current streak</text>'
     )
     p.append(
-        f'<text x="{pad}" y="88" class="a" font-size="18">{best_len} day{"s" if best_len != 1 else ""}</text>'
-        f'<text x="{pad}" y="104" class="a" font-size="11">longest streak'
-        + (f" · {bs} → {be}" if best_len else "")
-        + "</text>"
+        f'<text x="{pad}" y="78" class="a" font-size="16">{best_len} day{"s" if best_len != 1 else ""}</text>'
+        f'<text x="{pad}" y="94" class="a" font-size="10">longest streak</text>'
     )
     p.append("</svg>")
     with open(path, "w") as f:
@@ -224,7 +215,8 @@ def aggregate_languages(repo_nodes):
 
 
 def build_langs_svg(ranked, path):
-    w, pad = 460, 14
+    """Sized to sit next to the compact streak.svg card in a two-up row."""
+    w, pad = 260, 14
     row_h = 22
     h = pad * 2 + row_h * max(len(ranked), 1)
     p = [svg_open(w, h)]
